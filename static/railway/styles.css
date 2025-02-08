@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'railway/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Your Website Header</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Booking</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <h2>Your Content Here</h2>
+    <footer>
+        <p>Your Footer Content</p>
+    </footer>
+</body>
+</html>
